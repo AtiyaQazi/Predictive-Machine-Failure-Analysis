@@ -1,7 +1,7 @@
 # Predictive-Machine-Failure-Analysis
 This project is about predicting when a machine might fail using Artificial Intelligence (AI) and Machine Learning (ML). I have use real data from machines (like temperature, speed, and tool wear) and train models to find patterns that usually lead to machine failure. This helps prevent sudden breakdowns and saves time and money.
 
-#Project Overview
+# Project Overview
 Machines can stop working suddenly, which causes delays and extra costs. To avoid this, I can use data from the machines to predict failures before they happen. This is called predictive maintenance.
 
 In this project, I have:
@@ -12,11 +12,11 @@ In this project, I have:
 5.Check how well the models perform.
 6.Show the results using graphs and reports.
 
-#The Dataset
+# The Dataset
 I have used the AI4I 2020 Predictive Maintenance Dataset from the UCI Machine Learning Repository. It includes thousands of records from machines running in a factory.
 Dataset link: 'https://archive.ics.uci.edu/ml/machine-learning-databases/00601/ai4i2020.csv'.
 
-#Important Details:
+# Important Details:
 Target (what we are predicting):
 Machine failure (1 = failure, 0 = no failure)
 
@@ -27,7 +27,7 @@ Rotational speed of the machine
 Torque (twisting force)
 Tool wear (how much the tool has been used)
 
-#How the Project Works
+# How the Project Works
 Step 1: Load the Data
 Load the dataset directly from the internet using pandas.
 
